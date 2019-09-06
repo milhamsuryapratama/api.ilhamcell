@@ -23,7 +23,7 @@ mongoose
     .connect('mongodb+srv://ilham:ilham@cluster0-gfljl.mongodb.net/ilhamcell?retryWrites=true&w=majority')
     .then(result => {
         console.log(result);
-        app.listen(3000);
+        app.listen(process.env.PORT || 3000);
     })
     .catch(error => {
         console.log(error);
