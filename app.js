@@ -20,7 +20,7 @@ app.use(operatorRoutes);
 app.use(transaksiRoutes);
 
 mongoose
-    .connect('mongodb://127.0.0.1:27017/ilhamcell')
+    .connect('mongodb+srv://ilham:ilham@cluster0-gfljl.mongodb.net/test?retryWrites=true&w=majority')
     .then(result => {
         console.log(result);
         app.listen(3000);
