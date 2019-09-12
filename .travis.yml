@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 12
+script:
+  - yarn install
+  - yarn test
+deploy:
+  provider: heroku
+  api_key:
+    secure: 46fada8c-92a6-4852-a980-bf6c001d3b4b
+  app: api-ilhamcell
+  on:
+    repo: milhamsuryapratama/api.ilhamcell
