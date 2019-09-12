@@ -1,7 +1,7 @@
 const supertest = require('supertest');
 const should = require('should');
 
-const server = supertest.agent('https://api-ilhamcell.herokuapp.com/operator');
+const server = supertest.agent('https://api-ilhamcell.herokuapp.com');
 const operatorDb = require('../models/operatorModel');
 
 describe('operator tes', () => {
