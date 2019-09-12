@@ -20,7 +20,8 @@ app.use(operatorRoutes);
 app.use(transaksiRoutes);
 
 mongoose
-    .connect('mongodb+srv://ilham:ilham@cluster0-gfljl.mongodb.net/ilhamcell?retryWrites=true&w=majority')
+    // .connect('mongodb+srv://ilham:ilham@cluster0-gfljl.mongodb.net/ilhamcell?retryWrites=true&w=majority')
+    .connect('mongodb://localhost:27017/ilhamcell')
     .then(result => {
         console.log(result);
         app.listen(process.env.PORT || 3000);
@@ -28,3 +29,5 @@ mongoose
     .catch(error => {
         console.log(error);
     })
+
+module.exports = app;

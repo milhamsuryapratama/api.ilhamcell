@@ -2,8 +2,9 @@
   "name": "api.ilhamcell",
   "version": "1.0.0",
   "main": "app.js",
-  "start": {
-    "start": "nodemon app.js"
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha --timeout 10000"
   },
   "license": "MIT",
   "dependencies": {
@@ -12,6 +13,11 @@
     "mongoose": "^5.6.13"
   },
   "devDependencies": {
-    "nodemon": "^1.19.2"
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
   }
 }
