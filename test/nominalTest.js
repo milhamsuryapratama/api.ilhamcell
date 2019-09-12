@@ -5,11 +5,6 @@ const server = supertest.agent('http://localhost:3000');
 const nominalDb = require('../models/nominalModel');
 
 describe('nominal test', () => {
-    // before((done) => {
-    //     nominalDb.remove({}, (err) => {
-    //        done();
-    //     });
-    // });
 
     it('menampilkan semua data nominal', function (done) {
         server
