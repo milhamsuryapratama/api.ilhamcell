@@ -1,7 +1,7 @@
 const supertest = require('supertest');
 const should = require('should');
 
-const server = supertest.agent('http://localhost:3000');
+const server = supertest.agent('https://api-ilhamcell.herokuapp.com/transaksi');
 const transaksiDb = require('../models/transaksiModel');
 
 describe('transaksi test', () => {
