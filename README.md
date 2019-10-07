@@ -1,2 +1,2 @@
 # api.ilhamcell
-Restfull API Ilham Cell (Konter)
+Restfull API Ilham Cell (Konter Pulsa)
