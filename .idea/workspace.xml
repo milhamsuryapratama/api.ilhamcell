@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38815213-99fc-44d2-9d98-c7e185078ce0" name="Default Changelist" comment="" />
+    <list default="true" id="38815213-99fc-44d2-9d98-c7e185078ce0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../api.ilhamcell\exportToHTML" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
+  <component name="FavoritesManager">
+    <favorites_list name="api.ilhamcell" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/.idea/api.ilhamcell.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QTKbiX1BqZspLBgCIsVWqTt7Mh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github/node-group-chat" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,6 +46,86 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="operator tes" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/operatorTest.js</test-file>
+      <test-names>
+        <name value="operator tes" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="operator tes.mengubah data operator" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/operatorTest.js</test-file>
+      <test-names>
+        <name value="operator tes" />
+        <name value="mengubah data operator" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="transaksi test" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/transaksiTest.js</test-file>
+      <test-names>
+        <name value="transaksi test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="transaksi test.menambah data transaksi" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/transaksiTest.js</test-file>
+      <test-names>
+        <name value="transaksi test" />
+        <name value="menambah data transaksi" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="transaksi test.menghapus data transaksi" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/transaksiTest.js</test-file>
+      <test-names>
+        <name value="transaksi test" />
+        <name value="menghapus data transaksi" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -49,7 +136,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567789219350</updated>
-      <workItem from="1567789225070" duration="988000" />
+      <workItem from="1567789225070" duration="3291000" />
+      <workItem from="1567869423739" duration="677000" />
+      <workItem from="1567954690267" duration="4098000" />
+      <workItem from="1568094890478" duration="3018000" />
+      <workItem from="1568178752036" duration="6212000" />
+      <workItem from="1568211694970" duration="4663000" />
+      <workItem from="1568263101052" duration="1198000" />
+      <workItem from="1568304498817" duration="5385000" />
+      <workItem from="1568381540232" duration="232000" />
+      <workItem from="1569073297808" duration="2013000" />
+      <workItem from="1569077347849" duration="80000" />
     </task>
     <servers />
   </component>
@@ -61,7 +158,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
