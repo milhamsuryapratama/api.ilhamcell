@@ -11,7 +11,7 @@ describe('transaksi test', () => {
             .expect("Content-type",/json/)
             .expect(200)
             .end((err, res) => {
-               console.log(res);
+            //    console.log(res);
                res.status.should.equal(200);
                done();
             });
@@ -23,7 +23,7 @@ describe('transaksi test', () => {
             .send({ nama: "yolo", nomorHp: "085330157883", operatorId: "5d727da5521737123c17816d", nominalId: "5d79180ee916fb0f18fb39b4", status: "LUNAS" })
             .expect(201)
             .end((err, res) => {
-               console.log(res);
+            //    console.log(res);
                res.status.should.equal(201);
                done();
             });
@@ -31,10 +31,10 @@ describe('transaksi test', () => {
 
     it('menghapus data transaksi', function (done) {
         server
-            .delete('/transaksi/5d7a73cd65f127188050b3d0')
+            .delete('/transaksi/5d7a8508d0896e0004affc7d')
             .expect(200)
             .end((err, res) => {
-               console.log(res);
+            //    console.log(res);
                res.status.should.equal(200);
                done();
             });
@@ -49,7 +49,7 @@ describe('transaksi test', () => {
                    .send({ nama: "yolo", nomorHp: "085330157883", operatorId: "5d727da5521737123c17816d", nominalId: "5d79180ee916fb0f18fb39b4", status: "LUNAS" })
                    .expect(200)
                    .end((error, result) => {
-                      console.log(result);
+                    //   console.log(result);
                       result.status.should.equal(200);
                       done();
                    });

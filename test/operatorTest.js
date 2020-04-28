@@ -11,7 +11,7 @@ describe('operator tes', () => {
             .expect("Content-type",/json/)
             .expect(200)
             .end((err,res) => {
-                console.log(res);
+                // console.log(res);
                 res.status.should.equal(200);
                 done();
             });
@@ -23,7 +23,7 @@ describe('operator tes', () => {
             .send({ nama: "XL" })
             .expect(201)
             .end((err, res) => {
-               console.log(res);
+            //    console.log(res);
                res.status.should.equal(201);
                done();
             });
@@ -31,10 +31,10 @@ describe('operator tes', () => {
 
     it('menghapus dara operator', function (done) {
         server
-            .delete('/operator/5d72773d4551f332f8a65935')
+            .delete('/operator/5d72a8c02e7dec0004e0ba5b')
             .expect(200)
             .end((err, res) => {
-               console.log(res);
+            //    console.log(res);
                res.status.should.equal(200);
                done();
             });
@@ -49,7 +49,7 @@ describe('operator tes', () => {
                     .send({ nama: "XL" })
                     .expect(200)
                     .end((error, result) => {
-                       console.log(result);
+                    //    console.log(result);
                        result.status.should.equal(200);
                        done();
                     });

@@ -12,7 +12,7 @@ describe('nominal test', () => {
             .expect("Content-type",/json/)
             .expect(200)
             .end(function (err, res) {
-                console.log(res);
+                // console.log(res);
                 // HTTP status should be 200
                 res.status.should.equal(200);
                 // Error key should be false.
@@ -27,7 +27,7 @@ describe('nominal test', () => {
             .send({ nama: '50' })
             .expect(201)
             .end(function (err, res) {
-                console.log(res);
+                // console.log(res);
                 res.status.should.equal(201);
                 done();
             })
@@ -35,10 +35,10 @@ describe('nominal test', () => {
 
     it('menghapus data nominal', function (done) {
         server
-            .delete('/nominal/5d72773d4551f332f8a65935')
+            .delete('/nominal/5d7a8507d0896e0004affc7b')
             .expect(200)
             .end(function (err, res) {
-                console.log(res);
+                // console.log(res);
                 res.status.should.equal(200);
                 done();
             })
@@ -52,7 +52,7 @@ describe('nominal test', () => {
                     .put('/nominal/'+res.body[0]._id)
                     .send({ nama: "500" })
                     .end(function (error, response) {
-                        console.log(response);
+                        // console.log(response);
                         response.status.should.equal(200);
                         done();
                     })
