@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38815213-99fc-44d2-9d98-c7e185078ce0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/models/pegawaiModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github/node-group-chat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mongodb-crud-testing" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
   </component>
   <component name="RunDashboard">
@@ -46,8 +47,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="operator tes" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Mocha.transaksi test (1)">
+    <configuration name="pegawai test" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
@@ -56,13 +57,13 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/operatorTest.js</test-file>
+      <test-file>$PROJECT_DIR$/test/pgw.js</test-file>
       <test-names>
-        <name value="operator tes" />
+        <name value="pegawai test" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="operator tes.mengubah data operator" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+    <configuration name="pegawai test.should inser" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
@@ -71,14 +72,14 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/operatorTest.js</test-file>
+      <test-file>$PROJECT_DIR$/test/pgw.js</test-file>
       <test-names>
-        <name value="operator tes" />
-        <name value="mengubah data operator" />
+        <name value="pegawai test" />
+        <name value="should inser" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="transaksi test" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+    <configuration name="transaksi test (1)" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
@@ -87,7 +88,7 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/transaksiTest.js</test-file>
+      <test-file>$PROJECT_DIR$/test/pgwTest.js</test-file>
       <test-names>
         <name value="transaksi test" />
       </test-names>
@@ -125,6 +126,13 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.transaksi test (1)" />
+        <item itemvalue="Mocha.pegawai test" />
+        <item itemvalue="Mocha.pegawai test.should inser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -147,6 +155,14 @@
       <workItem from="1568381540232" duration="232000" />
       <workItem from="1569073297808" duration="2013000" />
       <workItem from="1569077347849" duration="80000" />
+      <workItem from="1572010891171" duration="2001000" />
+      <workItem from="1572013528783" duration="3352000" />
+      <workItem from="1572021636209" duration="38000" />
+      <workItem from="1572056185622" duration="455000" />
+      <workItem from="1572071501452" duration="3421000" />
+      <workItem from="1572075550546" duration="999000" />
+      <workItem from="1572149250649" duration="763000" />
+      <workItem from="1572155599513" duration="2978000" />
     </task>
     <servers />
   </component>
